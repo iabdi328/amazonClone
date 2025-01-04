@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="/">
+        <img src="./assets/amazon_logo.png" width="100" alt="amazon logo" />
+      </a>
 
-    
-   
-</body>
+      <div class="nav-country">
+        <img src="assets/location_icon.png" height="20" />
+        <div>
+          <p>Deliver to</p>
+          <h1>United States</h1>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <div class="nav-search-category">
+          <p>All</p>
+          <img src="assets/dropdown_icon.png" alt="Dropdown Icon" height="12" />
+        </div>
+
+        <input
+          type="text"
+          placeholder="Search Amazon"
+          class="nav-search-input"
+          aria-label="Search Input"
+        />
+
+        <img
+          src="./assets/search_icon.png"
+          alt="Search Icon"
+          class="nav-search-icon"
+        />
+      </div>
+
+      <div class="nav-language">
+        <img src="assets/us_flag.png" width="25px" />
+        <p>EN</p>
+        <img src="./assets/dropdown_icon.png" width="8px" />
+      </div>
+
+      <div class="nav-text">
+        <p>Hello, Sign in</p>
+        <h1>
+          Account & Lists
+          <img src="./assets/dropdown_icon.png" width="8px" />
+        </h1>
+      </div>
+
+      <div class="nav-text">
+        <p>Returns</p>
+        <h1>
+          & Orders
+          <img src="./assets/dropdown_icon.png" width="8px" />
+        </h1>
+      </div>
+
+      <a href="" class="nav-cart">
+        <img src="./assets/cart_icon.png" width="35px" />
+        <h4>Cart</h4>
+      </a>
+    </nav>
+  </body>
 </html>

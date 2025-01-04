@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: Outfit;
+}
+
+body {
+  background: #dadada;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
